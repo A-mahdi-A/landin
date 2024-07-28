@@ -1,0 +1,44 @@
+body {
+  div#p-LS {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 220px;
+height: 40px;
+    border: 1px solid rgb(82, 82, 82);
+    border-radius: 11px;
+
+    a {
+      div#SignUp {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #4a09f4;
+        color: white;
+        height: 24px;
+        padding: 10px 20px;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        border-radius: 11px;
+        font-weight: 800;
+        img {
+          height: 20px;
+          padding-right: 10px;
+        }
+      }
+    }
+
+
+
+    a {
+        text-decoration: none;
+        div#Login {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: black;
+            width: 100px;
+          }
+    }
+  }
+}

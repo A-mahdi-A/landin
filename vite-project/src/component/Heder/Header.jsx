@@ -4,7 +4,7 @@ import LandSup from '../Login and SignUp/LandSup'
 function Header() {
   return (
   <>
-  <section>
+  <section id='header'>
     <div id='Logo'></div>
     <div id='Meno'></div>
     <div id='LoginB'><LandSup/></div>
