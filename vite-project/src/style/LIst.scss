@@ -1,0 +1,20 @@
+@font-face {
+    font-family: Dirooz;
+    src: url(../assets/fonts/Dirooz.ttf) format("woff");
+}
+body{
+    ul#meno{
+        display: flex;
+        justify-content: space-between;
+        list-style: none; 
+        li{
+            margin-left: 20px;
+            a{
+                font-family:Dirooz;
+                font-weight: 600;
+                text-decoration: none;
+                color: #6465f4;
+            }
+        }
+    }
+}

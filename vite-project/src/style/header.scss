@@ -1,7 +1,16 @@
 body{
+   padding: 0%;
+   margin: 0%;
+   box-sizing: border-box;
  section#header{
+
+   border-radius: 20px;
+   
+   background-color: #faf8ff;
     display: flex;
-    padding: 10px 140px;
+    margin: 10px 150px;
+    padding: 10px 50px;
     justify-content: space-between;
+    align-items: center;
  }
 }

@@ -1,3 +1,7 @@
+@font-face {
+  font-family: Dirooz;
+  src: url(../assets/fonts/Dirooz.ttf) format("woff");
+}
 body {
   div#p-LS {
     display: flex;
@@ -9,18 +13,16 @@ height: 40px;
     border-radius: 11px;
 
     a {
+      font-family:Dirooz;
       div#SignUp {
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-between;
         background-color: #4a09f4;
         color: white;
-        height: 24px;
+        height: 22px;
         padding: 10px 20px;
-        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
         border-radius: 11px;
-        font-weight: 800;
         img {
           height: 20px;
           padding-right: 10px;
@@ -32,6 +34,7 @@ height: 40px;
 
     a {
         text-decoration: none;
+        font-family:Dirooz;
         div#Login {
             display: flex;
             align-items: center;
