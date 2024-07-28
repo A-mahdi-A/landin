@@ -1,5 +1,7 @@
 body{
  section#header{
+    display: flex;
     padding: 10px 140px;
+    justify-content: space-between;
  }
 }
