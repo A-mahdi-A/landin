@@ -8,12 +8,12 @@ body {
     align-items: center;
     justify-content: space-between;
     width: 220px;
-height: 40px;
+    height: 40px;
     border: 1px solid rgb(82, 82, 82);
     border-radius: 11px;
 
     a {
-      font-family:Dirooz;
+      font-family: Dirooz;
       div#SignUp {
         display: flex;
         align-items: center;
@@ -30,18 +30,16 @@ height: 40px;
       }
     }
 
-
-
     a {
-        text-decoration: none;
-        font-family:Dirooz;
-        div#Login {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: black;
-            width: 100px;
-          }
+      text-decoration: none;
+      font-family: Dirooz;
+      div#Login {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: black;
+        width: 100px;
+      }
     }
   }
 }

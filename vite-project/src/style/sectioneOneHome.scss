@@ -3,6 +3,7 @@
   src: url(../assets/fonts/Dirooz.ttf) format("woff");
 }
 body {
+ 
   section#num1Home {
     display: flex;
     align-items: center;
@@ -10,15 +11,59 @@ body {
     background-color: #faf8ff;
     text-align: right;
     font-family: Dirooz;
-    div.R-side {
+    width: 1300px;
+    border-radius: 10px 0px;
+    div#R-side {
+      margin-left: 40px;
       h1 {
         font-weight: bolder;
         font-size: 40px;
+        margin: 0%;
       }
       h5 {
         font-size: x-large;
         font-weight: 100;
+        margin: 0%;
       }
+      p {
+        color: gray;
+        font-size: larger;
+      }
+    }
+    div#Buttons {
+      margin-left: 20px;
+      display: flex;
+      align-self: center;
+      justify-content: space-around;
+      div#border-p {
+        border: 0.2px solid #4a09f4;
+        padding: 5px 10px;
+        border-radius: 10px;
+        transition: background-color 2s ease-out 100ms;
+        transition: color 0.5s ease-out 100ms;
+      }
+    }
+    div#border-p:hover {
+      background-color: #9870fc;
+      border: #9870fc;
+      color: white;
+    }
+    div#bg-p {
+      padding: 2px 20px;
+      background-color: #4a09f4;
+      color: #faf8ff;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-radius: 10px;
+      transition: background-color 1s ease-out 100ms;
+      p {
+        margin: 0%;
+        margin-left: 10px;
+      }
+    }
+    div#bg-p:hover {
+      background-color: black;
     }
   }
 }

@@ -1,0 +1,54 @@
+body {
+  margin: 0%;
+  padding: 0;
+  section#Cardssec {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #faf8ff;
+    padding: 30px 70px;
+    width: 89%;
+
+    // ------------------------------------------------------------------------------------
+    div#Zaman,
+    #Hazine,
+    #AfzayeshT {
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: end;
+      text-align: right;
+      width: 21%;
+      line-height: 25px;
+      font-family: Dirooz;
+    
+    border-radius: 10px;
+     height: 400px;
+      // ---------------------------------------------
+      p {
+        font-size: small;
+        color: gray;
+      }
+      // -----------------------------------------------
+      img {
+        margin-top: 20px;
+      }
+      
+    }
+    div#Zaman:hover {
+      background-color: rgb(255, 255, 255);
+      box-shadow: 0px 0px 20px 5px rgb(166, 166, 166);
+    }
+    #Hazine:hover {
+      background-color: rgb(255, 255, 255);
+      box-shadow: 0px 0px 20px 5px rgb(166, 166, 166);
+
+    }
+    #AfzayeshT:hover {
+      background-color: rgb(255, 255, 255);
+      box-shadow: 0px 0px 20px 5px rgb(166, 166, 166);
+   
+
+    }
+  }
+}
