@@ -5,6 +5,7 @@ import SectionNumber1OnHomePage from '../../component/section number 1 info/Sect
 import Faselee from '../../component/fasele/fasele'
 import CardsSec from '../../component/sectione info cards/CardsSec'
 import PCDSection from '../../component/posht pardee campin digital sectione/PCDSection'
+import SDCsectione from '../../component/start whit digital campian/SDCsectione'
 
 
 function Home() {
@@ -15,6 +16,7 @@ function Home() {
       <SectionNumber1OnHomePage/>
       <Faselee />
       <CardsSec/>
+      <SDCsectione/>
       <PCDSection/>
     </div>
   )
