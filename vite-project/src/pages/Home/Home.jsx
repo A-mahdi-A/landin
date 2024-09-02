@@ -6,6 +6,7 @@ import Faselee from '../../component/fasele/fasele'
 import CardsSec from '../../component/sectione info cards/CardsSec'
 import PCDSection from '../../component/posht pardee campin digital sectione/PCDSection'
 import SDCsectione from '../../component/start whit digital campian/SDCsectione'
+import DCsectione from '../../component/drup click/DCsectione'
 
 
 function Home() {
@@ -18,6 +19,7 @@ function Home() {
       <CardsSec/>
       <SDCsectione/>
       <PCDSection/>
+      <DCsectione/>
     </div>
   )
 }
