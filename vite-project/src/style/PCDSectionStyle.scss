@@ -1,0 +1,35 @@
+body {
+  section#PCDSectionSide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 70px 0;
+    span#imo-titel{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h1{
+            text-align: right;
+        }
+        #imoji{
+            margin-left: 20px;
+        }
+    }
+    div {
+      width: 35%;
+    }
+    div#PCDSectionText {
+      font-family: Dirooz;
+      display: flex;
+      flex-direction: column;
+      align-items: end;
+      justify-content: center;
+      
+      P {
+        text-align: right;
+        color: gray;
+        line-height: 35px;
+      }
+    }
+  }
+}
